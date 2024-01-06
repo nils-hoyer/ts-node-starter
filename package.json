@@ -1,0 +1,30 @@
+{
+  "name": "ts-node-starter",
+  "version": "0.1.0",
+  "description": "ts-node-starter kit for node typescript",
+  "scripts": {
+    "lint": "prettier --write .",
+    "test": "vitest run"
+  },
+  "keywords": [
+    "typescript",
+    "node",
+    "ts-node",
+    "starter",
+    "ts-node-starter"
+  ],
+  "author": "nils-hoyer",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "@tsconfig/node20": "^20.1.2",
+    "@types/node": "^20.10.6",
+    "dotenv": "^16.3.1",
+    "prettier": "^3.1.1",
+    "rimraf": "^5.0.5",
+    "ts-node": "^11.0.0-beta.1",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3",
+    "vitest": "^1.1.3"
+  }
+}
