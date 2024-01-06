@@ -16,7 +16,8 @@ jobs:
         with:
           node-version: lts/*
           cache: "npm"
-      - run: npm ci
+      - run: npm install
       - run: npm run lint
       - run: npm run test
+      - run: vitest run
       - run: tsx src/hello-world/index.ts
