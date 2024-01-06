@@ -19,5 +19,4 @@ jobs:
       - run: npm install
       - run: npm run lint
       - run: npm run test
-      - run: vitest run
-      - run: tsx src/hello-world/index.ts
+      - run: npm run hello-world

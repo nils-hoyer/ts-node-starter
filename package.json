@@ -4,7 +4,8 @@
   "description": "ts-node-starter kit for node typescript",
   "scripts": {
     "lint": "prettier --write .",
-    "test": "vitest run"
+    "test": "vitest run",
+    "hello-world": "tsx src/hello-world/index.ts"
   },
   "keywords": [
     "typescript",
